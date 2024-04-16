@@ -6,7 +6,7 @@ mkdir wave
 cd wave
 repo init -u git://github.com/CyanogenMod/android.git -b cm-13.0
 cd .repo
-wget https://raw.github.com/MrSuperBuddy/android_samsung_wave_local_manifest/local_manifest.xml
+wget https://github.com/MrSuperBuddy/android_samsung_wave_local_manifest/raw/local_manifest.xml
 cd ..
 repo sync -j8
 cd vendor/cm/
